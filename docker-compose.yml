@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    build:  
+      context: ./backend
+    ports:
+      - '3000:3000' 
+    env_file:
+      - .env
+    networks:
+      - cloud-public
+
+  client:
+    build:  
+      context: ./client
+    ports:
+      - '7700:7700'
+    env_file:
+      - .env 
+    depends_on:
+      - backend
+    networks:
+      - cloud-public
+
+networks:
+  cloud-public:
+    driver: bridge

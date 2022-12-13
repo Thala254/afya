@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "AfyaBora Backend",
+  "main": "index.js",
+  "author": "Kiprotich Brian",
+  "license": "MIT",
+  "scripts": {
+    "dev": "keystone dev",
+    "seed": "keystone prisma db seed",
+    "start": "keystone start",
+    "build": "keystone build",
+    "postinstall": "keystone postinstall"
+  },
+  "prisma": {
+    "seed": "ts-node seed-data"
+  },
+  "dependencies": {
+    "@keystone-6/auth": "1.0.1",
+    "@keystone-6/cloudinary": "1.0.0",
+    "@keystone-6/core": "1.0.1",
+    "@keystone-6/fields-document": "1.0.1",
+    "@types/nodemailer": "6.4.0",
+    "dotenv": "16.0.0",
+    "nodemailer": "6.4.17",
+    "sqlite3": "5.0.2",
+    "stripe": "8.130.0",
+    "typescript": "4.5.4"
+  },
+  "devDependencies": {
+    "ts-node": "10.7.0"
+  }
+}
