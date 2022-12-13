@@ -51,7 +51,7 @@ export default function SingleProduct({ id }) {
   return (
     <ProductStyles data-testid="singleProduct">
       <Head>
-        <title>Sick Fits | {product.name}</title>
+        <title>Afya Bora | {product.name}</title>
       </Head>
       <img
         src={product.photo.image.publicUrlTransformed}

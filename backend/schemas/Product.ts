@@ -3,16 +3,16 @@ import { text, relationship, select, integer } from '@keystone-6/core/fields';
 import { rules, isSignedIn } from '../access';
 
 export const Product = list({
-  access: {
-    operation: {
-      create: isSignedIn,
-    },
-    filter: {
-      query: rules.canReadProducts,
-      delete: rules.canManageProducts,
-      update: rules.canManageProducts,
-    },
-  },
+  // access: {
+  //   operation: {
+  //     create: isSignedIn,
+  //   },
+  //   filter: {
+  //     query: rules.canReadProducts,
+  //     delete: rules.canManageProducts,
+  //     update: rules.canManageProducts,
+  //   },
+  // },
   fields: {
     name: text({ validation: { isRequired: true } }),
     description: text({

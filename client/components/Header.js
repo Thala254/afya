@@ -9,7 +9,7 @@ const Logo = styled.h1`
   margin-left: 2rem;
   position: relative;
   z-index: 2;
-  background: red;
+  background: green;
   transform: skew(-7deg);
   a {
     color: white;
