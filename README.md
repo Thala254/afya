@@ -1,25 +1,6 @@
 <!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/sophiabrandt/nextjs-ecommerce">
-    <img src="logo.png" alt="Logo">
-  </a>
-
+  <h1 align="center">AFYA BORA REMEDIES</h1>
   <h3 align="center">Next.js E-commerce</h3>
-
-  <p align="center">
-    Example web shop built with Next.js and Keystone.js
-    <br />
-    <a href="https://github.com/sophiabrandt/nextjs-ecommerce"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://nextjs-ecommerce.repository.host">View Demo</a>
-    ·
-    <a href="https://github.com/sophiabrandt/nextjs-ecommerce/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/sophiabrandt/nextjs-ecommerce/issues">Request Feature</a>
-  </p>
-</p>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
