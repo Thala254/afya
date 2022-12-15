@@ -6,17 +6,11 @@
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
+   <li>
+    <a href="#about-the-project">About The Project</a>
+     <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
-    </li>
-    <li>
-      <a href="#demo">Demo</a>
-    </li>
-    <li>
-      <a href="#screenshots">Screenshots</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -24,12 +18,8 @@
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
-    </li>
+     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#tests">Tests</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
