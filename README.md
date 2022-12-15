@@ -80,28 +80,17 @@
 - Automatic Deployment via Docker Swarm and GitLab CI
 - Testing with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) and Jest
 
-<!-- DEMO -->
+<!-- ARCHITECTURE -->
 
-## Demo
+## Architecture
 
-I've deployed a demo (via GitOps/Gitlab CI) to a $5 [Upcloud VPS](https://upcloud.com/) ([How?](https://www.rockyourcode.com/traefik-2-docker-swarm-setup-with-docker-socket-proxy-and-more/)).
 
 Backend: [https://nextjs-ecommerce-keystone.repository.host](https://nextjs-ecommerce-keystone.repository.host/)  
 GraphQL API: [https://nextjs-ecommerce-keystone.repository.host/api/graphql](https://nextjs-ecommerce-keystone.repository.host/api/graphql)  
 
 Frontend: [https://nextjs-ecommerce.repository.host](https://nextjs-ecommerce.repository.host/)
 
-The password reset uses a sandboxed Mailgun account and only works with one email: dzwjxgqv@sharklasers.com
 
-To read the password reset email, go to [https://www.guerrillamail.com/](https://www.guerrillamail.com/) and set the inbox to "dzwjxgqv@sharklasers.com".
-
-<!-- SCREENSHOTS  -->
-
-## Screenshots
-
-You can find more screenshots in the [screenshots/](screenshots/) folder.
-
-![Main Page](screenshots/nextjs-ecommerce.png)
 
 <!-- GETTING STARTED -->
 
@@ -167,35 +156,3 @@ cd frontend
 NODE_TLS_REJECT_UNAUTHORIZED = '0' yarn build
 NODE_TLS_REJECT_UNAUTHORIZED = '0' yarn start
 ```
-
-The frontend app is available at [https://frontend.app.localhost](https://frontend.app.localhost/orders). You can reach the backend app at [https://backend.app.localhost/](https://backend.app.localhost/).
-
-<!-- TESTS -->
-
-## Tests
-
-```sh
-cd backend && yarn run test
-cd frontend && yarn run test
-```
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-See the [open issues](https://github.com/sophiabrandt/nextjs-ecommerce/issues) for a list of proposed features (and known issues).
-
-<!-- CONTACT -->
-
-## Contact
-
-Sophia Brandt - [@hisophiabrandt](https://twitter.com/hisophiabrandt)
-
-Project Link: [https://github.com/sophiabrandt/nextjs-ecommerce](https://github.com/sophiabrandt/nextjs-ecommerce)
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## Acknowledgements
-
-- [Wes Bos](https://wesbos.com/)
-- [Paulin Trognon](https://paulintrognon.fr/blog/typescript-prettier-eslint-next-js)
