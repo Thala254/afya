@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
   <h1 align="center">AFYA BORA REMEDIES</h1>
-  <h3 align="center">Next.js E-commerce</h3>
+  <h3 align="center">AFYA</h3>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -27,7 +27,7 @@
 
 ## About The Project
 
-**Next.js E-commerce** is an example online shop built with React.js and Keystone.js.
+**Afya Bora** is an example online shop built with React.js and Keystone.js.
 
 ### Built With
 
@@ -51,18 +51,6 @@
 - Automatic Deployment via Docker Swarm and GitLab CI
 - Testing with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) and Jest
 
-<!-- ARCHITECTURE -->
-
-## Architecture
-
-
-Backend: [https://nextjs-ecommerce-keystone.repository.host](https://nextjs-ecommerce-keystone.repository.host/)  
-GraphQL API: [https://nextjs-ecommerce-keystone.repository.host/api/graphql](https://nextjs-ecommerce-keystone.repository.host/api/graphql)  
-
-Frontend: [https://nextjs-ecommerce.repository.host](https://nextjs-ecommerce.repository.host/)
-
-
-
 <!-- GETTING STARTED -->
 
 ## Getting Started
@@ -84,7 +72,7 @@ To get a local copy up and running follow these steps.
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/sophiabrandt/nextjs-ecommerce.git
+   git clone https://github.com/thala254/afya.git
    ```
 
 2. Install NPM packages
