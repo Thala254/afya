@@ -96,7 +96,7 @@ To get a local copy up and running follow these steps.
 
 ```sh
 cd backend && yarn run dev
-cd frontend && yarn run dev
+cd client && yarn run dev
 ```
 
 Go to [http://localhost:7771](http://localhost:7771) for the Keystone CMS (backend) and [http://localhost:7777](http://localhost:7777) for the Next.js application (frontend).
@@ -111,7 +111,7 @@ Node.js will complain about the missing certificate issuer. For _local developme
 
 
 ```sh
-cd frontend
+cd client
 NODE_TLS_REJECT_UNAUTHORIZED = '0' yarn build
 NODE_TLS_REJECT_UNAUTHORIZED = '0' yarn start
 ```
